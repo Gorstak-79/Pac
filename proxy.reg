@@ -16,3 +16,13 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings]
 "AutoConfigURL"="https://www.proxynova.com/proxy.pac"
+
+; System Locale
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage]
+"ACP"="1252"
+"OEMCP"="437"
+"MACCP"="10000"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\Language]
+"Default"="040
